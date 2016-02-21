@@ -1,0 +1,62 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "collapsed": true
+   },
+   "outputs": [],
+   "source": [
+    "# Display plots in the notebook\n",
+    "%pylab inline"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "collapsed": true
+   },
+   "outputs": [],
+   "source": [
+    "# Common imports\n",
+    "import numpy as np\n",
+    "import pylab as pl"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "collapsed": true
+   },
+   "outputs": [],
+   "source": [
+    "# Make plots prettyful\n",
+    "pl.style.use('fivethirtyeight')"
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python {{major_version}}",
+   "language": "python",
+   "name": "python{{major_version}}"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": {{major_version}}
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython{{major_version}}",
+   "version": "{{full_version}}"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 0
+}
